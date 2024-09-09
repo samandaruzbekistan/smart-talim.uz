@@ -35,6 +35,10 @@ Route::get('/cyber-security/3', function () {
     return view('user.information.themes.3');
 })->name('information.3');
 
+Route::get('/cyber-exam', function () {
+    return view('user.information.exams.1');
+})->name('information.exam');
+
 
 Route::get('/dreamweaver', function () {
     return view('user.dreamweaver.dreamweaver_course');
@@ -47,6 +51,10 @@ Route::get('/dreamweaver/1', function () {
 Route::get('/dreamweaver/2', function () {
     return view('user.dreamweaver.themes.2');
 })->name('dreamweaver.2');
+
+Route::get('/dreamweaver-exam', function () {
+    return view('user.dreamweaver.exams.1');
+})->name('dreamweaver.exam');
 
 
 
@@ -66,6 +74,10 @@ Route::get('/web/3', function () {
     return view('user.web.themes.3');
 })->name('web.3');
 
+Route::get('/web-exam', function () {
+    return view('user.web.exams.1');
+})->name('web.exam');
+
 
 Route::get('/graphics', function () {
     return view('user.graphics.graphics_course');
@@ -78,6 +90,10 @@ Route::get('/graphics/1', function () {
 Route::get('/graphics/2', function () {
     return view('user.graphics.themes.2');
 })->name('graphics.2');
+
+Route::get('/graphics-exam', function () {
+    return view('user.graphics.exams.1');
+})->name('graphics.exam');
 
 
 
@@ -101,6 +117,10 @@ Route::get('/multimedia/4', function () {
     return view('user.multimedia.themes.4');
 })->name('multimedia.4');
 
+Route::get('/multimedia-exam', function () {
+    return view('user.multimedia.exams.1');
+})->name('multimedia.exam');
+
 
 
 Route::get('/excel', function () {
@@ -123,6 +143,9 @@ Route::get('/excel/4', function () {
     return view('user.excel.themes.4');
 })->name('excel.4');
 
+Route::get('/excel-exam', function () {
+    return view('user.excel.exams.1');
+})->name('excel.exam');
 
 
 
@@ -154,6 +177,10 @@ Route::get('/internet/6', function () {
     return view('user.internet.themes.6');
 })->name('internet.6');
 
+Route::get('/internet-exam', function () {
+    return view('user.internet.exams.1');
+})->name('internet.exam');
+
 
 
 Route::get('/operating', function () {
@@ -180,11 +207,19 @@ Route::get('/operating/5', function () {
     return view('user.operating_systems.themes.5');
 })->name('operating.5');
 
+Route::get('/operating-exam', function () {
+    return view('user.operating.exams.1');
+})->name('operating.exam');
+
 
 
 Route::get('/computers', function () {
     return view('user.computers.computers_course');
 })->name('computers');
+
+Route::get('/computers-exam', function () {
+    return view('user.computers.exams.1');
+})->name('computers.exam');
 
 Route::get('/computers/1', function () {
     return view('user.computers.themes.1');

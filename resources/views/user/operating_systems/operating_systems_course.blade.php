@@ -90,6 +90,12 @@
                                 <h5><i class="bi bi-play-circle text-success"></i> Ta’lim tizimida axborot madaniyatining ahamiyati</h5>
                             </div>
                         </a>
+                        <h3>Imtihon:</h3>
+                        <a href="{{ route('operating.exam') }}">
+                            <div class="course-info d-flex justify-content-between align-items-center">
+                                <h5><i class="bi bi-mortarboard text-danger"></i> Imtihon</h5>
+                            </div>
+                        </a>
                     </div>
                 </div>
 

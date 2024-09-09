@@ -55,12 +55,12 @@
 
         <nav id="navmenu" class="navmenu">
             <ul>
-                <li><a href="#hero" @yield('home')>Bosh sahifa<br></a></li>
-                <li><a href="#why-us">Fan</a></li>
-                <li><a href="#courses">Axborot haqida</a></li>
-                <li><a href="#trainers-index" @yield('course')>Kurslar</a></li>
-                <li><a href="#author">Muallif</a></li>
-                <li><a href="#contact">Bog'lanish</a></li>
+                <li><a href="{{ asset('') }}#hero" @yield('home')>Bosh sahifa<br></a></li>
+                <li><a href="{{ asset('') }}#why-us">Fan</a></li>
+                <li><a href="{{ asset('') }}#courses">Axborot haqida</a></li>
+                <li><a href="{{ asset('') }}#trainers-index" @yield('course')>Kurslar</a></li>
+                <li><a href="{{ asset('') }}#author">Muallif</a></li>
+                <li><a href="{{ asset('') }}#contact">Bog'lanish</a></li>
 
             </ul>
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
